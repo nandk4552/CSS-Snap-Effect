@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    scroll-snap-align: start;
+}
+
+.container {
+    /* you can also use proximity in place of mandotory */
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: lightseagreen;
+}
+.two {
+    background:lightpink;
+    height: 50vh;
+}
+.three {
+    background: blue;
+    height: 300vh;
+
+}
+.four {
+    background: lightsalmon;
+}
